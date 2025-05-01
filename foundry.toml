@@ -1,0 +1,32 @@
+[profile.default]
+src = "contracts"
+test = "exploits"
+out = "out"
+libs = ["lib"]
+remappings = [
+    "ds-test/=lib/forge-std/lib/ds-test/src/",
+    "forge-std/=lib/forge-std/src/",
+    "swc_104/=contracts/104_UncheckedCallReturnValue/",
+    "swc_105/=contracts/105_UnprotectedEtherWithdrawal/",
+    "swc_106/=contracts/106_UnprotectedSelfdestruct/",
+    "swc_107/=contracts/107_Reentrancy/",
+    "swc_110/=contracts/110_AssertViolation/",
+    "swc_112/=contracts/112_UntrustedDelegatecall/",
+    "swc_113/=contracts/113_DoSFailedCall/",
+    "swc_114/=contracts/114_TOD/",
+    "swc_115/=contracts/115_AuthorizationTxOrigin/",
+    "swc_116/=contracts/116_BlockValuesAsProxy/",
+    "swc_120/=contracts/120_WeakSourcesOfRandomness/",
+    "swc_124/=contracts/124_ArbitraryStorageWrite/",
+    "swc_128/=contracts/128_DoSBlockGasLimit/",
+    "swc_132/=contracts/132_UnexpectedEtherBalance/",
+    "arithmetic_issues/=contracts/ArithmeticIssuesBeyondOverUnderflow/",
+    "locked_ether/=contracts/Locked_Ether/",
+    
+]
+sender = '0xDeaDbeefdEAdbeefdEadbEEFdeadbeEFdEaDbeeF'
+tx_origin = '0xDeaDbeefdEAdbeefdEadbEEFdeadbeEFdEaDbeeF'
+verbosity = 5
+match-test = '^test_*'
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options

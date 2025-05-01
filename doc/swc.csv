@@ -1,0 +1,41 @@
+SWC;name;id;used
+100;Function Default Visibility;DefaultFunctionVisibility
+101;Integer Overflow and Underflow;IntegerOverflowAndUnderflow;
+102;Outdated Compiler Version;OutdatedCompilerVersion
+103;Floating Pragma;FloatingPragma
+104;Unchecked Call Return Value;UncheckedRetVal;1
+105;Unprotected Ether Withdrawal;UnprotectedEtherWithdrawal;1
+106;Unprotected SELFDESTRUCT Instruction;UnprotectedSelfdestruct;1
+107;Reentrancy;Reentrancy;1
+108;State Variable Default Visibility;DefaultStateVariableVisibility
+109;Uninitialized Storage Pointer;UninitializedStoragePointer
+110;Assert Violation;AssertViolation;1
+111;Use of Deprecated Solidity Functions;DeprecatedFunctionsUsage
+112;Delegatecall to Untrusted Callee;DelegatecallToUntrustedContract;1
+113;DoS with Failed Call;MultipleSends;1
+114;Transaction Order Dependence;TxOrderDependence;1
+115;Authorization through tx.origin;TxOriginUsage;1
+116;Block Values as a Proxy for Time;TimestampDependence;1
+117;Signature Malleability;SignatureMalleability
+118;Incorrect Constructor Name;IncorrectConstructorName
+119;Shadowing State Variables;ShadowingStateVariables
+120;Weak Sources of Randomness from Chain Attributes;WeakRandomness;1
+121;Missing Protection against Signature Replay Attacks;SignatureReplay
+122;Lack of Proper Signature Verification;ImproperVerificationBasedOnMsgSender
+123;Requirement Violation;RequirementViolation
+124;Write to Arbitrary Storage Location;WriteToArbitraryStorage;1
+125;Incorrect Inheritance Order;IncorrectInheritanceOrder
+126;Insufficient Gas Griefing;InsufficientGasGriefing
+127;Arbitrary Jump with Function Type Variable;ArbitraryJump
+128;DoS With Block Gas Limit;DosWithBlockGasLimit;1
+129;Typographical Error;TypographicalError
+130;Right-To-Left-Override control character;RightLeftOverrideCharacter
+131;Presence of Unused Variables;UnusedVariables
+132;Unexpected Ether balance;UnexpectedEtherBalance;1
+133;Hash Collisions With Multiple Variable Length Arguments;HashCollisions
+134;Message call with hardcoded gas amount;CallWithHardcodedGas
+135;Code With No Effects;EffectFreeCode
+136;Unencrypted Private Data On-Chain;UnencryptedPrivateData
+997;Locked Ether;LockedEther;1
+998;Callstack Depth Bug;CalstackDepthBug
+999;Other Arithmetic Issue;OtherArithmeticIssue;1
