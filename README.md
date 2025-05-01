@@ -1,3 +1,23 @@
+# Solidity Vulnerability Analysis – SWC-104
+
+## Overview
+
+This project focuses on detecting vulnerabilities in Solidity smart contracts, specifically the **SWC-104: Unchecked Call Return Value** vulnerability. It automates the analysis of smart contracts using various static and dynamic analysis tools to assess whether they properly handle external call return values, a critical security concern in Ethereum smart contract development.
+
+## What is SWC-104?
+
+**SWC-104** refers to the "Unchecked Call Return Value" vulnerability, where a smart contract makes an external call using `.call()`, `.delegatecall()`, `.send()`, or `.transfer()` and fails to check the return value. This can lead to unexpected behavior or security exploits, especially if the call fails silently.
+
+## Tools Used
+
+The project integrates and evaluates the following security analysis tools:
+
+- **Mythril**
+- **Foundry**
+
+
+
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
