@@ -15,7 +15,8 @@ The project integrates and evaluates the following security analysis tools:
 - **Mythril**
 - **Foundry**
 
-
+[View the full project report (PDF)](SmartContractReport.pdf)
+[And the exploit report here (PDF)](SmartContractExploitReport.pdf)
 
 
 ## Foundry
